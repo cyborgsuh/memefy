@@ -115,6 +115,38 @@ src/
 - **Memory Management**: Proper cleanup of object URLs and canvas resources
 - **Optimized Builds**: Vite's tree-shaking and code splitting
 
+## 🛠️ How I Built It (The Fun Backstory)
+
+This project wasn’t just code — it was a journey. Here’s how it went down:
+
+1. **The Nano Banana API Fiasco 🍌**
+   - My first idea was to use Google AI Studio’s *Imagen API* to generate memes automatically.
+   - After setting up a project, pasting code, and getting hyped… *BOOM!* →  
+     ```
+     ClientError: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Imagen API is only accessible to billed users at this time.'}}
+     ```
+   - Moral of the story: no API, no problem. 🚀
+
+2. **Building It Myself with Streamlit ⚡**
+   - Instead of giving up, I decided to *cook my own meme engine*.
+   - Prototyped the whole idea in **Streamlit**: upload a logo → auto-generate caption → output memes instantly.
+   - It wasn’t scrappy — it actually worked great! But I knew it needed polish.
+
+3. **Leveling Up with Bolt.new + Cursor 🛠️**
+   - I moved the prototype into a proper React + Vite app using **Bolt.new** to bootstrap the setup.
+   - Then refined everything with **Cursor AI**, fixing bugs, tweaking the layout, and adding finishing touches.
+   - The result? A clean, production-ready meme generator that feels fun *and* professional.
+
+4. **Design & Tech Choices 🎨**
+   - Went with **React + TypeScript + Tailwind CSS** for a modern, scalable frontend.
+   - Chose **client-side Canvas API** for image processing so no data ever leaves your browser.
+   - Picked **Impact/Arial Black fonts** to stay true to meme culture while still looking crisp.
+   - Built style variations (Classic / Modern / Bold) to keep things fresh.
+
+👉 This mix of *failed APIs, scrappy prototypes, and polished iteration* shows exactly how I approach problems:  
+**move fast, hack solutions, and polish later until it shines.**
+
+
 ## 🛠️ Customization
 
 ### Adding New Captions
