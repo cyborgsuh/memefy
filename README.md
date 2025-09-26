@@ -6,7 +6,7 @@ Transform any company logo into hilarious, shareable memes with just one click! 
 
 - **📤 Easy Upload**: Drag and drop or browse for PNG, JPG, and SVG files (up to 10MB)
 - **🎯 Smart Captions**: Automatically generates witty, brand-related captions using a curated collection of business humor
-- **🎨 Multiple Styles**: Choose from Classic, Modern, and Bold meme styles
+- **🎨 Multiple Styles**: From Classic, Modern, and Bold meme styles
 - **🔄 Variations**: Generate up to 6 different meme variations with unique captions
 - **⬇️ Instant Download**: High-quality PNG downloads (800x600px) perfect for social media
 - **📱 Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
@@ -18,7 +18,7 @@ Transform any company logo into hilarious, shareable memes with just one click! 
 
 1. **Clone and Install**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/cyborgsuh/memefy
    cd meme-generator
    npm install
    ```
@@ -168,14 +168,6 @@ Customize the UI by editing Tailwind classes in component files or extending the
 - **Memory Usage**: ~50MB peak during meme generation
 - **Generation Time**: <500ms per meme on modern devices
 
-## 🎯 Future Enhancements
-
-- **Custom Text**: Allow users to input their own captions
-- **More Formats**: Support for GIF and WebP files
-- **Social Sharing**: Direct sharing to social media platforms
-- **Template Editor**: Visual editor for creating custom meme templates
-- **Batch Processing**: Generate memes for multiple logos at once
-- **Analytics**: Track popular caption templates and styles
 
 ## 📝 License
 

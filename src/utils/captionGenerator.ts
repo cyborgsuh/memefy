@@ -22,6 +22,11 @@ const captionTemplates: CaptionTemplate[] = [
     bottomText: "NOBODY KNOWS WHAT IT MEANS",
     category: 'corporate'
   },
+  {
+    topText: "HIRING ISN'T EASY",
+    bottomText: "BUT FIRE IS EASY",
+    category: 'corporate'
+  },
   
   // Startup humor
   {
@@ -44,6 +49,16 @@ const captionTemplates: CaptionTemplate[] = [
     bottomText: "MYTHICAL AND OVERVALUED",
     category: 'startup'
   },
+  {
+    topText: "RAISING FUNDS",
+    bottomText: "DOESN'T MEAN YOU'RE DOING ANYTHING",
+    category: 'startup'
+  },
+  {
+    topText: "WE'RE BUILDING THE FUTURE",
+    bottomText: "ONE BUG AT A TIME",
+    category: 'startup'
+  },
   
   // Tech humor
   {
@@ -64,6 +79,16 @@ const captionTemplates: CaptionTemplate[] = [
   {
     topText: "BLOCKCHAIN EVERYTHING",
     bottomText: "PROBLEM SOLVED?",
+    category: 'tech'
+  },
+  {
+    topText: "AI ASSISTANT",
+    bottomText: "DOESN'T DO ANYTHING",
+    category: 'tech'
+  },
+  {
+    topText: "SOFTWARE DEVELOPMENT",
+    bottomText: "MAY THE SOURCE BE WITH YOU",
     category: 'tech'
   },
   
@@ -117,7 +142,14 @@ const captionTemplates: CaptionTemplate[] = [
     topText: "SCALABLE SOLUTION",
     bottomText: "SCALING DOWN INCLUDED",
     category: 'generic'
-  }
+  },
+  {
+    topText: "INNOVATION AT ITS FINEST",
+    bottomText: "CTRL+C, CTRL+V",
+    category: 'generic'
+  },
+  
+  
 ];
 
 export const generateCaptions = (): CaptionTemplate[] => {
