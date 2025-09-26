@@ -48,9 +48,6 @@ const MemeDisplay: React.FC<MemeDisplayProps> = ({ memes }) => {
                 alt={`Meme ${index + 1}`}
                 className="w-full h-auto rounded-lg shadow-lg"
               />
-              <div className={`absolute top-2 right-2 ${getStyleBadgeColor(meme.style)} text-white px-2 py-1 rounded text-xs font-semibold capitalize`}>
-                {meme.style}
-              </div>
             </div>
             
             <div className="mb-4">
