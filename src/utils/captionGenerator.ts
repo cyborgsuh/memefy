@@ -148,6 +148,66 @@ const captionTemplates: CaptionTemplate[] = [
     bottomText: "CTRL+C, CTRL+V",
     category: 'generic'
   },
+  {
+    topText: "COMPANY VALUES:",
+    bottomText: "WORK-LIFE BALANCE SOLD SEPARATELY",
+    category: 'corporate'
+  },
+  {
+    topText: "HIRING ISN'T EASY",
+    bottomText: "BUT FIRING FEELS GREAT",
+    category: 'corporate'
+  },
+  {
+    topText: "MOVE FAST AND BREAK THINGS",
+    bottomText: "NOW WE HAVE MORE THINGS TO FIX",
+    category: 'startup'
+  },
+    {
+    topText: "PIVOT! PIVOT! PIVOT!",
+    bottomText: "STILL HEADING NOWHERE",
+    category: 'startup'
+  },
+    {
+    topText: "UNICORN STATUS",
+    bottomText: "MYTHICAL, MAGICAL, OVERVALUED",
+    category: 'startup'
+  },
+    {
+    topText: "RAISING FUNDS",
+    bottomText: "DOESN'T MEAN YOU HAVE A PRODUCT",
+    category: 'startup'
+  },
+    {
+    topText: "WE'RE BUILDING THE FUTURE",
+    bottomText: "CURRENTLY CRASHING IN BETA",
+    category: 'startup'
+  },
+    {
+    topText: "ARTIFICIAL INTELLIGENCE",
+    bottomText: "STILL DOESN'T UNDERSTAND HUMOR",
+    category: 'tech'
+  },
+    {
+    topText: "QUARTERLY RESULTS",
+    bottomText: "BEAT EXPECTATIONS BY 0.01%",
+    category: 'generic'
+  },
+    {
+    topText: "CUSTOMER SERVICE",
+    bottomText: "PLEASE HOLD FOREVER AND ENJOY THE MUSIC",
+    category: 'generic'
+  },
+  {    
+    topText: "BRAND NEW STRATEGY",
+    bottomText: "EXACTLY LIKE THE OLD ONE",
+    category: 'generic'
+  },
+    {
+    topText: "BEST PRACTICES",
+    bottomText: "AS RECOMMENDED BY PEOPLE WHO DON'T DO IT",
+    category: 'generic'
+  },
   
   
 ];
