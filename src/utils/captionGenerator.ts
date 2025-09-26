@@ -193,11 +193,6 @@ const captionTemplates: CaptionTemplate[] = [
     bottomText: "BEAT EXPECTATIONS BY 0.01%",
     category: 'generic'
   },
-    {
-    topText: "CUSTOMER SERVICE",
-    bottomText: "PLEASE HOLD FOREVER AND ENJOY THE MUSIC",
-    category: 'generic'
-  },
   {    
     topText: "BRAND NEW STRATEGY",
     bottomText: "EXACTLY LIKE THE OLD ONE",
